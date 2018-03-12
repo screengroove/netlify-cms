@@ -1,0 +1,13 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: homepage
+    fields:
+      - { name: path, label: Path }
+      - {label: Image, name: imageHero, widget: image}
+      - { name: title, label: Title }
